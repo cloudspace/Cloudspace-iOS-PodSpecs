@@ -108,7 +108,8 @@ Pod::Spec.new do |s|
   #
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  s.framework = 'Twitter'
+  s.frameworks = 'Twitter', 'Social', 'AdSupport', 'Accounts', libsqlite3.dylib'
+
 
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
