@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
 
   # If this Pod uses ARC, specify it like so.
   #
-  s.requires_arc = true
+  #s.requires_arc = true
 
   # If you need to specify any other build settings, add them to the
   # xcconfig hash.
