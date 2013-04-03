@@ -49,14 +49,14 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "https://github.com/Hipo/HPSocialNetworkManager.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Hipo/HPSocialNetworkManager.git" }
   # s.source       = { :svn => 'http://EXAMPLE/HPSocialNetworkManager/tags/1.0.0' }
   # s.source       = { :hg  => 'http://EXAMPLE/HPSocialNetworkManager', :revision => '1.0.0' }
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
   # the deployment target.
   #
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '5.0'
   # s.platform     = :ios
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
