@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
   #
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  s.frameworks = 'Twitter', 'Social', 'AdSupport', 'Accounts', 'libsqlite3.dylib'
+  s.frameworks = 'Twitter', 'Social', 'AdSupport', 'Accounts'
 
 
   # Specify a list of libraries that the application needs to link
@@ -116,10 +116,12 @@ Pod::Spec.new do |s|
   #
   # s.library   = 'iconv'
   # s.libraries = 'iconv', 'xml2'
+  s.library = 'libsqlite3'
+
 
   # If this Pod uses ARC, specify it like so.
   #
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # If you need to specify any other build settings, add them to the
   # xcconfig hash.
