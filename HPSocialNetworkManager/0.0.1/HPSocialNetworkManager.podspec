@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "https://github.com/Hipo/HPSocialNetworkManager.git" }
+  s.source         = { :git => "https://github.com/jlorich/HPSocialNetworkManager.git" }
   # s.source       = { :svn => 'http://EXAMPLE/HPSocialNetworkManager/tags/1.0.0' }
   # s.source       = { :hg  => 'http://EXAMPLE/HPSocialNetworkManager', :revision => '1.0.0' }
 
