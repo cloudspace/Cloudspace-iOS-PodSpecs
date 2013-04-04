@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}', 'Dependencies/HPAccountManager/*.{h,m}', 'Dependencies/TWAPIManager/*.{h,m}', 'Dependencies/ABOAuthCore/*.{h,m}'
+  s.source_files = 'Classes/**/*.{h,m}', 'Dependencies/HPAccountManager/*.{h,m}', 'Dependencies/TWAPIManager/*.{h,m}', 'Dependencies/ABOAuthCore/*.{h,m}'
 
   # A list of file patterns which select the header files that should be
   # made available to the application. If the pattern is a directory then the
