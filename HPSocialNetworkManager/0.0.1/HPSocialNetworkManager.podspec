@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #
   # s.library   = 'iconv'
   # s.libraries = 'iconv', 'xml2'
-  s.library = 'libsqlite3'
+  s.library     = 'sqlite3.0'
 
 
   # If this Pod uses ARC, specify it like so.
