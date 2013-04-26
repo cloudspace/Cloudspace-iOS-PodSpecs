@@ -8,7 +8,10 @@
 
 #import "CSAutoCompleteViewController.h"
 
+
 #import <MBProgressHUD/MBProgressHUD.h>
+#import "NSObject+CSShortcuts.h"
+
 #import "CSEnhancedTableView.h"
 #import "CSEnhancedTableViewCell.h"
 #import "CSEnhancedTableViewHeaderFooterView.h"
