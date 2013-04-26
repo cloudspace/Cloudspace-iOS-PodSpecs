@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author       = { 'Joseph Lorich' => 'joey@cloudspace.com' }
-  s.source       = { :git => 'git@github.com:cloudspace/Cloudspace-iOS.git' }
+  s.source       = { :git => 'git://github.com/cloudspace/Cloudspace-iOS.git' }
   s.platform     = :ios, '5.1'
   s.source_files = 'Library/CSStandardViewControllers/**/*.{h,m}'
   s.requires_arc = true
