@@ -7,7 +7,6 @@
 //
 
 #import "CSBaseViewController.h"
-#import "AFNetworking.h"
 
 // Forward class definitions
 @class CSAutoCompleteViewController, CSEnhancedTableView;
