@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.1'
   s.source_files = 'Library/CSStandardViewControllers/*.{h,m}'
   s.requires_arc = true
+  s.dependency     'MBProgressHUD', '~> 0.6'
 end
